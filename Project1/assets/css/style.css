@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #ffb03b;
+  color: #42eb5eef;
 }
 
 a:hover {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #ffb03b;
+  background: #2fce4aef;
   color: #fff;
   transition: all 0.4s;
 }
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar i {
-  color: #ffb03b;
+  color: #42eb5eef;
 }
 
 #topbar i + i {
@@ -158,12 +158,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffb03b;
+  color: #42eb5eef;
   text-decoration: none;
 }
 
 .nav-menu .book-a-table a {
-  background: #ffb03b;
+  background: #2fce4aef;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .book-a-table a:hover {
-  background: #ffa012;
+  background: #42eb5eef;
   color: #fff;
 }
 
@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 span {
-  color: #ffb03b;
+  color: #2fce4aef;
 }
 
 #hero p {
@@ -513,11 +513,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #ffb03b;
+  border: 2px solid #2fce4aef; 
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #ffb03b;
+  background: #27d344ee;
   color: #fff;
 }
 
@@ -560,7 +560,7 @@ section {
 }
 
 .section-title h2 span {
-  color: #ffb03b;
+  color: #42eb5eef;
 }
 
 .section-title p {
@@ -678,7 +678,7 @@ section {
 
 .about .content ul i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #42eb5eef;
   position: absolute;
   left: 0;
   top: 2px;
@@ -699,7 +699,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#2fce4aef 50%, rgba(163, 255, 59, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -740,14 +740,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 176, 59, 0.7);
+  border: 5px solid rgba(219, 255, 59, 0.7);
   top: -15%;
   left: -15%;
-  background: rgba(198, 16, 0, 0);
+  background: rgba(198, 119, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #ffb03b;
+  border-left: 15px solid #42eb5eef;
   transform: scale(20);
 }
 
@@ -820,7 +820,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ffcf88;
+  color: #2fce4aef;
 }
 
 .why-us .box h4 {
@@ -839,7 +839,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #ffb03b;
+  background: #5ae071ef;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -870,13 +870,13 @@ section {
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  border: 2px solid #ffb03b;
+  border: 2px solid #42eb5eef;
   border-radius: 50px;
 }
 
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
   color: #fff;
-  background: #ffb03b;
+  background: #2fce4aef;
 }
 
 .menu #menu-flters li:last-child {
@@ -892,7 +892,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -908,7 +910,7 @@ section {
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #ff9b08;
+  color: #2fce4aef;
 }
 
 .menu .menu-content span {
@@ -949,12 +951,12 @@ section {
 }
 
 .specials .nav-link:hover {
-  color: #ffb03b;
+  color: #42eb5eef;
 }
 
 .specials .nav-link.active {
-  color: #ffb03b;
-  border-color: #ffb03b;
+  color: #2fce4aef;
+  border-color: #2fce4aef;
 }
 
 .specials .tab-pane.active {
@@ -1033,7 +1035,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #ffb03b;
+  color: #42eb5eef;
 }
 
 .events .event-item .price {
@@ -1044,7 +1046,7 @@ section {
 }
 
 .events .event-item .price span {
-  border-bottom: 2px solid #ffb03b;
+  border-bottom: 2px solid #42eb5eef;
 }
 
 .events .event-item ul {
@@ -1059,7 +1061,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ffb03b;
+  color: #42eb5eef;
 }
 
 .events .event-item p:last-child {
@@ -1169,7 +1171,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type="submit"] {
-  background: #ffb03b;
+  background: #2fce4aef;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1288,7 +1290,7 @@ section {
 }
 
 .chefs .member .social a:hover {
-  color: #ffb03b;
+  color: #2fce4aef;
 }
 
 .chefs .member .social i {
@@ -1361,7 +1363,7 @@ section {
 }
 
 .testimonials .testimonial-item .stars {
-  color: #ffb03b;
+  color: #2fce4aef;
   margin-bottom: 10px;
 }
 
@@ -1404,7 +1406,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #ffb03b !important;
+  background-color: #2fce4aef !important;
 }
 
 @media (min-width: 1024px) {
@@ -1433,7 +1435,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #42eb5eef;
   float: left;
   width: 44px;
   height: 44px;
@@ -1462,7 +1464,7 @@ section {
 }
 
 .contact .info:hover i {
-  background: #ffb03b;
+  background: #2fce4aef;
   color: #fff;
 }
 
@@ -1538,7 +1540,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ffb03b;
+  background: #42eb5eef;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1582,7 +1584,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffb03b;
+  color: #2fce4aef;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -1615,7 +1617,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ffb03b;
+  background: #2fce4aef;
 }
 
 #footer .copyright {
